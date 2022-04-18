@@ -21,7 +21,9 @@ public class main {
     	System.out.println(pessoa2.nome);
 		System.out.println(pessoa2.numFigurinhas);
 		
-		pessoa1.dar(5, pessoa2);
+		boolean retorno = pessoa1.dar(4, pessoa2);
+		
+		if(retorno == true) {
 		
 		System.out.println("Depois");
 		
@@ -36,6 +38,7 @@ public class main {
 	
 
 	}
+}
 
 
 
