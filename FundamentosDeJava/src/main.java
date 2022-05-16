@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class main {
 
 	public static void main(String[] args) {
@@ -106,20 +107,64 @@ public class main {
 //	
 //	}
 		
-		int valorUsuario;
-		int multiplicador = 0;
-		int total = 0;
-		
-		Scanner ler = new Scanner(System.in);
-		System.out.println("Informe um número: ");
-		valorUsuario = ler.nextInt();
-		
-		for (int x = 0; x < 10; x++) {
-			total = valorUsuario * ++multiplicador;
-			System.out.println(valorUsuario + " x " + multiplicador + " = " + total);
-		}
+//		int valorUsuario;
+//		int multiplicador = 0;
+//		int total = 0;
+//		
+//		Scanner ler = new Scanner(System.in);
+//		System.out.println("Informe um número: ");
+//		valorUsuario = ler.nextInt();
+//		
+//		for (int x = 0; x < 10; x++) {
+//			total = valorUsuario * ++multiplicador;
+//			System.out.println(valorUsuario + " x " + multiplicador + " = " + total);
+//		}
+//	
+//	
+//	}
 	
+//
+//		int x1 = 3;
+//		int y1 = 5;
+//		int z1 = 7;
+//		
+//		System.out.println(x1);
+//		System.out.println(y1);
+//		System.out.println(z1);
+//		System.out.println();
+		
+	double x[] = { 3, 5, 3, 5};
+	
+	for (int aux = 0; aux < x.length; aux++) {
+		System.out.println("Valor do indice " + aux + " = " + x[aux]);
+	}
+	String nome[] = {"Fulano", "Ciclano", "Beltrano" };
+	
+	for (int aux1 = 0; aux1 < nome.length; aux1++) {
+		System.out.println(nome[aux1]);
+		if(nome[aux1] == "Ciclano") {
+			System.out.println("O indice de Ciclano é = " + aux1);
+		}
+	}
+	
+	
+	int[] arrayInt = new int[5];
+	String[] ArrayString = new String[4];
+	double[] ArrayDouble = new double[3];
+	
+	arrayInt[3] = 4;
+	
+	int[] numero = new int[6];
+	Scanner teclado = new Scanner(System.in);
+	
+	for(int aux2 = 0; aux2 < numero.length; aux2++) {
+		System.out.println("Digite um número qualquer");
+		numero[aux2] = teclado.nextInt();
+	}
+	
+	for(int aux2 = 0; aux2 < numero.length; aux2++) {
+		System.out.println("Indice " + aux2 + " = " + numero[aux2]);
+	}
 	
 	}
-
 }
