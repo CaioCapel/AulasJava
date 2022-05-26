@@ -1,1 +1,3 @@
-texto para ser gravado no arquivo
+Mouse [funciona = true, qtoBotoes = 2, tamanho = Pequeno]
+Mouse [funciona = true, qtoBotoes = 4, tamanho = Medio]
+Mouse [funciona = true, qtoBotoes = 6, tamanho = Grande]
