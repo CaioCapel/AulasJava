@@ -1,0 +1,3 @@
+Mouse: funciona = sim, qtoBotoes = 2, tamanho = pequeno
+Mouse: funciona = sim, qtoBotoes = 4, tamanho = medio
+Mouse: funciona = sim, qtoBotoes = 6, tamanho = grande
