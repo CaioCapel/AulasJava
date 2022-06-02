@@ -1,0 +1,4 @@
+Nome = Caio, Idade = 19, sexo = MASCULINO, endereco =  Rua = Diadema, Numero = 10, Bairro = Diadema
+Nome = Isa, Idade = 16, sexo = FEMININO, endereco =  Rua = Diadema, Numero = 10, Bairro = Diadema
+Nome = Kaique, Idade = 17, sexo = MASCULINO, endereco =  Rua = Maua, Numero = 10, Bairro = Maua
+Nome = Danilo, Idade = 15, sexo = MASCULINO, endereco =  Rua = Diadema, Numero = 10, Bairro = Diadema
