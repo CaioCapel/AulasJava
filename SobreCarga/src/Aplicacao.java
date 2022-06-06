@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Aplicacao {
+	//A sobrecarga utiliza o mesmo nome em um mÃ©todo mas possui funÃ§Ãµes diferentes.
 
 	public static void main(String[] args) {
 		
@@ -7,25 +8,25 @@ public class Aplicacao {
 		
 		Matematica matematica = new Matematica();
 		
-		System.out.println("Somar dois Números");
+		System.out.println("Somar dois NÃºmeros");
 		
-		System.out.println("Digite o primeiro número");
+		System.out.println("Digite o primeiro nÃºmero");
 		int x = scanner.nextInt();
 		
-		System.out.println("Digite o segundo número");
+		System.out.println("Digite o segundo nÃºmero");
 		int y = scanner.nextInt();
 		
 		
 		
 		
 		int soma = matematica.somar(x, y);
-		System.out.println("O resultado é " + soma + " !!!");
+		System.out.println("O resultado Ã© " + soma + " !!!");
 		
 		soma = matematica.somar(x, y, 0);
-		System.out.println("O resultado é " + soma + " !!!");
+		System.out.println("O resultado Ã© " + soma + " !!!");
 		
 		double soma2 = matematica.somar(x, y);
-		System.out.println("O resultado é " + soma2 + " !!!");
+		System.out.println("O resultado Ã© " + soma2 + " !!!");
 
 	}
 
