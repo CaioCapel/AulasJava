@@ -1,6 +1,6 @@
 
 public class Matematica {
-
+	//Os métodos somar dividem o mesmo nome mas possuem parâmetros diferentes.
 	int somar(int x, int y) {
 		
 		//int z = x + y;
