@@ -1,27 +1,9 @@
-
+//a classe caminhão extende/herda de veiculo
 public class Caminhao extends Veiculo {
-
-	private boolean carroceria;
 	
-	
+	//foi sobrescrito o método buzinar pois é diferente do padrão definido
 	@Override
 	public void buzinar() {
 		System.out.println("FOOOMM");
 	}
-
-
-	public boolean isCarroceria() {
-		return carroceria;
-	}
-
-
-	public void setCarroceria(boolean carroceria) {
-		this.carroceria = carroceria;
-	}
-	
-	
-	
-	
-	
-
 }
