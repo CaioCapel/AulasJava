@@ -13,7 +13,9 @@ public class Aplicacao {
 		resultado = matematica.subtrair(10, 4);
 		System.out.println(resultado);
 	
+		//a variável chamou o método somar
 		int resultado = Matematica.somar(2, 4);
+		//aqui foi mostrado o resultado
 		System.out.println(resultado);
 		resultado = Matematica.subtrair(10, 11);
 		System.out.println(resultado);
