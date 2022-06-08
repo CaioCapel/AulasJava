@@ -1,21 +1,26 @@
-
+//a classe veiculo é a super classe, ela tem todos os métodos e atributos que se aplicam as outras classes
 public class Veiculo {
 	
+	//atributos
 	private String nome;
 	protected String marca;
 	protected String modelo;
 	protected int ano;
+	//ptotected serve para que as subclasses vejam os atributos
 	
+	//método buzinar
 	public void buzinar() {
 		System.out.println("BI BI");
 	}
 	
+	//método imprimir
 	public void imprimir() {
 		System.out.println("Marca: " + marca);
 		System.out.println("Modelo: " + modelo);
 		System.out.println("Ano " + ano);
 	}
 
+	//getters e setters para que as outras classes vejam os atributos
 	public String getNome() {
 		return nome;
 	}
