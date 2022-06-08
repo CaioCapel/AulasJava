@@ -3,6 +3,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
+		//foi instanciado um objeto veiculo, e com esse objeto consigo settar os atributos da classe veiculo 
 		Veiculo veiculo = new Veiculo();
 		
 		veiculo.setMarca("Range Rover");
@@ -12,7 +13,9 @@ public class Aplicacao {
 		veiculo.imprimir();
 		veiculo.buzinar();
 		
+		//instanciado um novo objeto carro
 		Carro carro = new Carro();
+		//carro tambem é um veiculo então não tem necessidade de instanciar outro objeto do tipo veiculo pois como ele herda de veiculo seus métodos e atributos
 		carro.setMarca("Porsche");
 		carro.setModelo("Cayenne");
 		carro.setAno(2019);
@@ -21,7 +24,9 @@ public class Aplicacao {
 		carro.imprimir();
 		carro.buzinar();
 		
+		///instanciado um novo objeto caminhão
 		Caminhao caminhao = new Caminhao();
+		//caminhão tambem é um veiculo então não tem necessidade de instanciar outro objeto do tipo veiculo pois como ele herda de veiculo seus métodos e atributos
 		caminhao.setMarca("Scania");
 		caminhao.setModelo("Scania R-500");
 		caminhao.setAno(2020);
@@ -29,7 +34,9 @@ public class Aplicacao {
 		caminhao.imprimir();
 		caminhao.buzinar();
 		
+		//instanciado um novo objeto moto
 		Moto moto = new Moto();
+		//moto tambem é um veiculo então não tem necessidade de instanciar outro objeto do tipo veiculo pois como ele herda de veiculo seus métodos e atributos
 		moto.setMarca("Honda");
 		moto.setModelo("Hornet");
 		moto.setAno(2013);
