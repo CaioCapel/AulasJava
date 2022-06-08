@@ -1,4 +1,4 @@
-// A classe diamante extende de Item
+// A classe diamante se extende de Item
 public class Diamante extends Item {
 
 	//foi usado o método pegar da classe item para se adequar as necessidades da classe
