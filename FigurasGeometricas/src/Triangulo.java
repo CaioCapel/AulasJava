@@ -1,10 +1,11 @@
-
+// essa classe implementa AreaCalculavel porque os metodos dela se aplicam a essa
 public class Triangulo implements AreaCalculavel {
 
+	//variaveis
 	int base;
 	int altura;
 	
-	
+	//getters e setters
 	public int getBase() {
 		return base;
 	}
@@ -24,7 +25,7 @@ public class Triangulo implements AreaCalculavel {
 	@Override
 	public void calcularArea() {
 		
-		System.out.println("O valor é " + base*altura);
+		System.out.println("O valor Ã© " + base*altura);
 		
 	}
 
