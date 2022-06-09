@@ -11,8 +11,9 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		
 		
-List <Mouse> lista =  new ArrayList <Mouse> ();
+List <Mouse> lista =  new ArrayList <Mouse> ();//criando uma lista
 		
+		//instanciando mouse e dando parâmetros
 		Mouse mouse1 = new Mouse("sim", "2", "pequeno");
 		lista.add(mouse1);
 		
@@ -22,14 +23,14 @@ List <Mouse> lista =  new ArrayList <Mouse> ();
 		Mouse mouse3 = new Mouse("sim", "6", "grande");
 		lista.add(mouse3);
 		
-		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))){
+		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))){// criando arquivo txt 
 			for(Mouse mouse : lista)
 			escrever.write(mouse.toString());
 		}
 		
 		List <Mouse> lista1 =  new ArrayList <Mouse> ();
 		
-		try(BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))){
+		try(BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))){//lendo arquivo txt 
 			String line;
 			String string = "";
 			
