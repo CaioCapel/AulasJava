@@ -6,12 +6,12 @@ public class main {
 		Pessoa pessoa1 = new Pessoa();
 		
 		pessoa1.nome = "Caio";
-		pessoa1.numFigurinhas = 1;
+		pessoa1.numFigurinhas = 1;//inicia com uma figurinha
 		
 		pessoa1.receber(3);
 		
-		System.out.println(pessoa1.nome);
-		System.out.println(pessoa1.numFigurinhas);
+		System.out.println(pessoa1.nome);//usa o metodo receber figurinhas
+		System.out.println(pessoa1.numFigurinhas);//usa o metodo dar figurinhas
 		
        Pessoa pessoa2 = new Pessoa();
     	
@@ -27,6 +27,7 @@ public class main {
 		
 		System.out.println("Depois");
 		
+		//mostra o nome e a quantidade de figurinhas
 		System.out.println(pessoa1.nome);
 		System.out.println(pessoa1.numFigurinhas);
 		
