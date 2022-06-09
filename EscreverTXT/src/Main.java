@@ -14,17 +14,17 @@ public class Main {
 //			escrever.write(s);
 //		}
 		
-		List <Mouse> lista =  new ArrayList <Mouse> ();
+		List <Mouse> lista =  new ArrayList <Mouse> ();//criando uma lista
 		
-		Mouse mouse1 = new Mouse (true, 2, "Pequeno");
+		Mouse mouse1 = new Mouse (true, 2, "Pequeno");//instanciando objeto mouse e dando parâmetros
 		Mouse mouse2 = new Mouse (true, 4, "Medio");
 		Mouse mouse3 = new Mouse (true, 6, "Grande");
 		
-		lista.add(mouse1);
+		lista.add(mouse1);//adicionando mouse a lista 
 		lista.add(mouse2);
 		lista.add(mouse3);
 		
-		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))){
+		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))){//arquivo txt
 			for(Mouse mouse : lista)
 			escrever.write(mouse.toString());
 		}
