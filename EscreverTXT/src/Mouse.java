@@ -2,13 +2,13 @@
 public class Mouse {
 
 	
-
+	//variaveis
 	private boolean funciona;
 	private int qtoBotoes;
 	private String tamanho;
 	
 	
-	
+	//construtor
 	public Mouse(boolean funciona, int qtoBotoes, String tamanho) {
 		super();
 		this.funciona = funciona;
@@ -17,7 +17,7 @@ public class Mouse {
 	}
 	
 
-	
+	//getters e setters
 
 	public boolean isFunciona() {
 		return funciona;
