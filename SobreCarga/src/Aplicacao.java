@@ -4,9 +4,9 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);//instanciando scanner
 		
-		Matematica matematica = new Matematica();
+		Matematica matematica = new Matematica();//instanciando matematica
 		
 		System.out.println("Somar dois Números");
 		
@@ -18,7 +18,7 @@ public class Aplicacao {
 		
 		
 		
-		
+		//soma dos numeros e mostrando na tela
 		int soma = matematica.somar(x, y);
 		System.out.println("O resultado é " + soma + " !!!");
 		
