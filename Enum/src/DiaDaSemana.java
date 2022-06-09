@@ -1,5 +1,6 @@
 
 public enum DiaDaSemana {
+	//valores do indice
 	DOMINGO(1),
 	SEGUNDA(2),
 	TERCA(3),
@@ -8,8 +9,11 @@ public enum DiaDaSemana {
 	SEXTA(6),
 	SABADO(7);
 	
+	//variavel do tipo inteiro 
 	private int num;
-
+	
+	
+	//getters e setters
 	public int getNum() {
 		return num;
 	}
