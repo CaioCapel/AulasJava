@@ -2,7 +2,7 @@
 public class Aplicacao {
 
 	public static void main(String[] args) {
-		
+		//Aqui foi instanciado os objetos de cada tipo de classe para interagir com os metodos
 		Quadrado quadrado = new Quadrado();
 		 quadrado.setLado(10);
 		 
