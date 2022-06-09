@@ -2,13 +2,13 @@
 public class Mouse {
 
 	
-
+	//variaveis
 	private String funciona;
 	private String qtoBotoes;
 	private String tamanho;
 	
 	
-	
+	//construtor
 	public Mouse(String funciona, String qtoBotoes, String tamanho) {
 		super();
 		this.funciona = funciona;
@@ -16,6 +16,7 @@ public class Mouse {
 		this.tamanho = tamanho;
 	}
 	
+	//override para mostrar os dados
 	@Override
 	public String toString() {
 		return "Mouse: funciona = " + funciona + ", qtoBotoes = " + qtoBotoes + ", tamanho = " + tamanho + "]\n";
@@ -34,7 +35,7 @@ public class Mouse {
 		this.tamanho = arrayAuxiliar4[1].trim();
 	}
 	
-
+	//getters e setters 
 	public String isFunciona() {
 		return funciona;
 	}
