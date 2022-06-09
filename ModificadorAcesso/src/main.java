@@ -2,7 +2,8 @@
 public class main {
 
 	public static void main(String[] args) {
-
+		
+		//instanciando objeto conta1
 		ContaBancaria conta1 = new ContaBancaria();
 
 //		conta1.ativo = true;
@@ -20,13 +21,16 @@ public class main {
 //		System.out.println(conta1.saldo());
 //		ContaBancaria conta2 = new ContaBancaria();
 //		System.out.println(conta2.saldo());
-//		
+		
+		//instanciando objeto cliente1
 		Cliente cliente1 = new Cliente();
 		
+		//setando valores
 		cliente1.setNome("Caio");
 		cliente1.setCpf(123456);
 		cliente1.setNumConta(8745);
 		
+		//mostrando na tela
 		System.out.println(cliente1.getNome());
 		System.out.println(cliente1.getCpf());
 		System.out.println(cliente1.getNumConta());
@@ -43,22 +47,23 @@ public class main {
 		
 		System.out.println(cliente2);
 		
+		//comparando para ver se os dados dos dois clientes s√£o iguais
 		if(cliente1.getNome() == cliente2.getNome()) {
-			System.out.println("Os nomes s„o iguais");
+			System.out.println("Os nomes s√£o iguais");
 		}else {
-			System.out.println("Os nomes s„o diferentes");
+			System.out.println("Os nomes s√£o diferentes");
 		}
 		
 		if(cliente1 == cliente2) {
-			System.out.println("os objetos s„o iguais");
+			System.out.println("os objetos s√£o iguais");
 		}else {
-			System.out.println("os objetos s„o diferentes");
+			System.out.println("os objetos s√£o diferentes");
 		}
 		
 		if(cliente1.equals(cliente2)) {
-			System.out.println("os atributos dos objetos s„o iguais");
+			System.out.println("os atributos dos objetos s√£o iguais");
 		}else {
-			System.out.println("os atributos dos objetos s„o diferentes");
+			System.out.println("os atributos dos objetos s√£o diferentes");
 		}
 		
 	}
