@@ -4,15 +4,16 @@ public class Pessoa {
 	int numFigurinhas;
 
 	void receber(int numFigurinhas) {
-		this.numFigurinhas += numFigurinhas;
+		this.numFigurinhas += numFigurinhas;//m√©todo que recebe numero de figurinhas
 	}
 
-	boolean dar(int numFigurinhas, Pessoa pessoa) {
+	boolean dar(int numFigurinhas, Pessoa pessoa) { //metodo que da um numero de figurinhas
 
 	   // boolean retorno;
 
+		//caso a quantidade de troca seja menor do que possui, da erro
 		if(this.numFigurinhas<numFigurinhas) {
-			System.out.println("A quatidade de figurinhas n„o È suficiente para trocar");
+			System.out.println("A quatidade de figurinhas n√£o √© suficiente para trocar");
 			//retorno = false;
 			return false;
 		}
