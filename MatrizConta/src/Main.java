@@ -1,11 +1,11 @@
 
-import java.util.Scanner;
+import java.util.Scanner;//importando scanner
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-
+			//variaveis
 			// int x = 100;
 
 			// double y = 200;
@@ -18,24 +18,24 @@ public class Main {
 
 			// System.out.println(a);
 			// System.out.println(b);
-
+			//usando if para ver se a idade da pessoa se encaixa nos parÃ¢metros
 //			//int idadePessoa = 10;
-	//
+	
 //			//if (idadePessoa < 18) {
-//				//System.out.println("Você não pode beber");
+//				//System.out.println("VocÃª nÃ£o pode beber");
 //			//}
-	//
-//			//else if (idadePessoa < 60) { //de uma condição
+	
+//			//else if (idadePessoa < 60) { //de uma condiÃ§Ã£o
 //			//	System.out.println("Bora tomar uma");
 //			}else {
 //				System.out.println("Vai dormir idoso!");
 //			}
-	//
-//			System.out.println("Você tem " + idadePessoa + " anos");
+	
+//			System.out.println("VocÃª tem " + idadePessoa + " anos");
 
 //			
 //			int diasSemana = 8;
-	//
+	
 //			 switch(diasSemana) {
 //			 	case 1 :
 //			 		System.out.println("Domingo");
@@ -44,7 +44,7 @@ public class Main {
 //			 		System.out.println("Segunda");
 //			 		break;
 //			 	case 3:
-//			 		System.out.println("Terça");
+//			 		System.out.println("TerÃ§a");
 //			 		break;
 //			 	case 4:
 //			 		System.out.println("Quarta");
@@ -56,10 +56,10 @@ public class Main {
 //			 		System.out.println("Sexta");
 //			 		break;
 //			 	case 7:
-//			 		System.out.println("Sábado");
+//			 		System.out.println("SÃ¡bado");
 //			 		break;
 //			 	default:
-//			 		System.out.println("Esse número não representa um dia da semana");
+//			 		System.out.println("Esse nÃºmero nÃ£o representa um dia da semana");
 //			 	
 //		}
 
@@ -73,13 +73,13 @@ public class Main {
 //					
 //					switch(caractere) {
 //					case'a':
-//						System.out.println("Seu caractere é a");
+//						System.out.println("Seu caractere Ã© a");
 //						break;
 //					case 'b':
-//						System.out.println("Seu caractere é b");
+//						System.out.println("Seu caractere Ã© b");
 //						break;
 //					default:
-//						System.out.println("Valor inválido");
+//						System.out.println("Valor invÃ¡lido");
 //						
 //					}
 	//
@@ -99,7 +99,7 @@ public class Main {
 //				System.out.println("Celera mas agora legalmente");
 //				break;
 //				default:
-//					System.out.println("Cê é burro?");
+//					System.out.println("CÃª Ã© burro?");
 //			}}}
 
 
@@ -117,7 +117,7 @@ public class Main {
 //			int total = 0;
 //			
 //			Scanner ler = new Scanner(System.in);
-//			System.out.println("Informe um número: ");
+//			System.out.println("Informe um nÃºmero: ");
 //			valorUsuario = ler.nextInt();;
 //			
 //			for (int x = 0; x<10; x++) {
@@ -145,7 +145,7 @@ public class Main {
 //	for (int aux1 = 0; aux1 < nome.length; aux1++) {
 //		System.out.println(nome[aux1]);
 //		if(nome[aux1] == "Isa") {
-//			System.out.println("O indice de Isa é = " + aux1);
+//			System.out.println("O indice de Isa Ã© = " + aux1);
 //		}
 //	}
 //	
