@@ -1,10 +1,11 @@
 
 public class Mouse {
-
+	//variaveis
 	private String funciona;
 	private String qtoBotoes;
 	private String tamanho;
 
+	//construtor com parâmetros
 	public Mouse(String funciona, String qtoBotoes, String tamanho) {
 		super();
 		this.funciona = funciona;
@@ -12,6 +13,7 @@ public class Mouse {
 		this.tamanho = tamanho;
 	}
 	
+	//getters e setters 
 	@Override
 	public String toString() {
 		return "Mouse: funciona = " + funciona + ", qtoBotoes = " + qtoBotoes + ", tamanho = " + tamanho + "\n";
