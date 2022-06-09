@@ -9,16 +9,16 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		
-		Scanner teclado = new Scanner(System.in);
+		Scanner teclado = new Scanner(System.in);//instanciando scanner
 		
 		System.out.println("Arquivo pro TXT!");
 		String txt= (teclado.nextLine());
 		
-		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("txt escrito por programa.txt"))){
+		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("txt escrito por programa.txt"))){//escrevendo arquivo pto txt
 			escrever.write(txt);
 		}
 		
-		try(BufferedReader reader = new BufferedReader(new FileReader("txt escrito por programa.txt"))){
+		try(BufferedReader reader = new BufferedReader(new FileReader("txt escrito por programa.txt"))){//lendo arquivo txt
 			String line;
 			String string = "";
 			
