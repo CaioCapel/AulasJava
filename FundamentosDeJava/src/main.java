@@ -1,9 +1,10 @@
-import java.util.Scanner;
+//arquivo que contem alguns conceitos de java 
+import java.util.Scanner;//importando scanner
 
 public class main {
 
 	public static void main(String[] args) {
-
+		//variaveis
 //		 int x = 100;
 //		 double y = 200.3;
 //		 int a = 0;
@@ -19,18 +20,18 @@ public class main {
 
 //		int idadePessoa = 18;
 //		if (idadePessoa < 18) {
-//			System.out.println("Você não pode beber");
+//			System.out.println("VocÃª nÃ£o pode beber");
 //		} else if (idadePessoa < 60) {
 //			System.out.println("Bora Tomar uma");
 //		} else {
 //			System.out.println("Volta para o asilo");
 //		}
 //
-//		System.out.println("Você tem " + idadePessoa + " anos");
+//		System.out.println("VocÃª tem " + idadePessoa + " anos");
 
 //		int num = 6;
 //
-//		switch (num) {
+//		switch (num) {//switch serve para realizar um teste condicional
 //		case 1:
 //			System.out.println("Domingo");
 //			break;
@@ -38,7 +39,7 @@ public class main {
 //			System.out.println("Segunda-Feira");
 //			break;
 //		case 3:
-//			System.out.println("Terça-Feira");
+//			System.out.println("TerÃ§a-Feira");
 //			break;
 //		case 4:
 //			System.out.println("Quarta-Feira");
@@ -50,27 +51,27 @@ public class main {
 //			System.out.println("Sexta-Feira");
 //			break;
 //		case 7:
-//			System.out.println("Sábado");
+//			System.out.println("SÃ¡bado");
 //			break;
 //		default:
-//			System.out.println("Esse número não representa um dia da semana");
+//			System.out.println("Esse nÃºmero nÃ£o representa um dia da semana");
 //		}
-
+		//switchs podem conter variavel do tipo char
 		
 //		char caractere = 'c';
 //		
 //		switch(caractere) {
 //		case 'a':
-//			System.out.println("seu caractere é a");
+//			System.out.println("seu caractere Ã© a");
 //			break;
 //		case 'b':
-//			System.out.println("seu caractere é b");
+//			System.out.println("seu caractere Ã© b");
 //			break;
 //			default:
-//				System.out.println("valor inválido");
+//				System.out.println("valor invÃ¡lido");
 //				
 //		}
-//		
+//		//string farol valida os valores do switch
 //		String farol = "vermelho";
 //		
 //		switch(farol) {
@@ -78,13 +79,13 @@ public class main {
 //			System.out.println("Pare !!");
 //			break;
 //		case "amarelo":
-//			System.out.println("Atençao !!");
+//			System.out.println("AtenÃ§ao !!");
 //			break;
 //		case "verde":
 //			System.out.println("Siga !!");
 //			break;
 //			default:
-//				System.out.println("Valor inválido");
+//				System.out.println("Valor invÃ¡lido");
 //		}
 		
 //		int x=0;
@@ -111,8 +112,9 @@ public class main {
 //		int multiplicador = 0;
 //		int total = 0;
 //		
+		//usando scanner
 //		Scanner ler = new Scanner(System.in);
-//		System.out.println("Informe um número: ");
+//		System.out.println("Informe um nÃºmero: ");
 //		valorUsuario = ler.nextInt();
 //		
 //		for (int x = 0; x < 10; x++) {
@@ -143,7 +145,7 @@ public class main {
 //	for (int aux1 = 0; aux1 < nome.length; aux1++) {
 //		System.out.println(nome[aux1]);
 //		if(nome[aux1] == "Ciclano") {
-//			System.out.println("O indice de Ciclano é = " + aux1);
+//			System.out.println("O indice de Ciclano Ã© = " + aux1);
 //		}
 //	}
 //	
@@ -158,7 +160,7 @@ public class main {
 //	Scanner teclado = new Scanner(System.in);
 //	
 //	for(int aux2 = 0; aux2 < numero.length; aux2++) {
-//		System.out.println("Digite um número qualquer");
+//		System.out.println("Digite um nÃºmero qualquer");
 //		numero[aux2] = teclado.nextInt();
 //	}
 //	
