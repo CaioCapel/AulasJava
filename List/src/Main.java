@@ -6,8 +6,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		List lista =  new ArrayList();
+		List lista =  new ArrayList();//instanciando lista
 		
+		//adicionando valores na lista
 //		lista.add("abc");
 //		lista.add(12);
 //		lista.add(true);
@@ -41,18 +42,20 @@ public class Main {
 //		
 //		lista.clear();
 //		if(lista.isEmpty()) {
-//			System.out.println("sua lista est· vazia");
+//			System.out.println("sua lista est√° vazia");
 //		}
 
 
-//		Conta conta1 =  new Conta("¡gua" , 90.00);
+//		Conta conta1 =  new Conta("√Ågua" , 90.00);
 //		Conta conta2 =  new Conta("Luz" , 135.00);
 //		
+		//criando lista e adicionando conta1 e conta2
 //		List<Conta> listaDeContas = new ArrayList<Conta>();
 //		
 //		listaDeContas.add(conta1);
 //		listaDeContas.add(conta2);
 		
+		//mostrando os elementos da conta
 //		for(Conta conta : listaDeContas) {
 //			System.out.println(conta);
 		}
