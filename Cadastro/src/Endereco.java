@@ -17,12 +17,12 @@ public class Endereco {
 	}
 
 
+	//getters e setters
 	@Override
 	public String toString() {
 		
 		return " Rua = " + rua + ", Numero = " + numero + ", Bairro = "+ bairro;
 	}
-
 
 	private String rua;
 	private int numero;
