@@ -1,14 +1,19 @@
+//importando classe objects
 import java.util.Objects;
 
 public class Cliente {
+	
+	//atributos privados pois as outras classes não podem acessa-los facilmente
 	private String nome;
 	private int cpf;
 	private int numConta;
 	
+	//método cliente
 	public Cliente() {
 		super();
 	}
-
+	
+	//pegando e atribuindo um valor usando getters e setters
 	public String getNome() {
 		return nome;
 	}
@@ -33,6 +38,7 @@ public class Cliente {
 		this.numConta = numConta;
 	}
 
+	//toString é um método do java que retorna escrito o valor das variáveis
 	@Override
 	public String toString() {
 		return "---------------------\n"
@@ -40,11 +46,13 @@ public class Cliente {
 				+ "\n---------------------";
 	}
 
+	//hashCode é um método tambem do java que retorna variáveia como objetos
 	@Override
 	public int hashCode() {
 		return Objects.hash(cpf, nome, numConta);
 	}
 
+	//método equals serve para fazer comparações
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
