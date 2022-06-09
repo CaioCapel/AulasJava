@@ -5,7 +5,8 @@ public abstract class ContaBancaria {
 	public static double getSaldo() {
 		return saldo;
 	}
-
+	
+	//construtores
 	public void setSaldo(double saldo) {
 		ContaBancaria.saldo = saldo;
 	}
