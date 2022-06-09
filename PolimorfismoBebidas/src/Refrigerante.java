@@ -1,10 +1,11 @@
-
+//refrigerante extende de bebida
 public class Refrigerante extends Bebida {
 
 	public Refrigerante() {
 		super("Refrigerante", false);	
 	}
 
+	//
 	@Override
 	public void preparar() {
 		super.preparar();
