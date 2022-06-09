@@ -8,17 +8,19 @@ public class Pessoa {
 
 	public Pessoa(String linha) {
 
-		String[] arrayLinha = linha.split(",");
+		String[] arrayLinha = linha.split(",");//reparticao da variavel
 		String[] arrayNome = arrayLinha[0].split("=");
 		this.nome = arrayNome[1].trim();
 
 		String[] arraySexo = arrayLinha[1].split("=");
-		this.sexo = Sexo.valueOf(arraySexo[1].trim());
+		this.sexo = Sexo.valueOf(arraySexo[1].trim());//retira os espaços vazio da variavel
 
-		Endereco endereco = new Endereco(arrayLinha);
-		this.endereco = endereco;
+		Endereco endereco = new Endereco(arrayLinha);//instancia uma arrayLinha na variavel endereco
+		this.endereco = endereco;//variavel igual o atributo
 
 	}
+	
+	//getters e setters
 
 	public Pessoa() {
 		// TODO Auto-generated constructor stub
