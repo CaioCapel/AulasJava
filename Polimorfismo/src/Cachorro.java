@@ -1,4 +1,4 @@
-
+//cachorro extende de animal 
 public class Cachorro extends Animal {
 
 	//override do metodo falar
