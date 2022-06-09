@@ -1,6 +1,8 @@
 
 public class Ferrari implements Automovel, ItemCaro{
 
+	
+	//override de todos os metodos
 	@Override
 	public void virarEsquerda() {
 		System.out.println("Ferrari virou a esquerda");
