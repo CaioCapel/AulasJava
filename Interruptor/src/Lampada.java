@@ -7,7 +7,7 @@ private boolean ligado;
 		ligado = true;
 		System.out.println("Interruptor Ligado");
 	}
-
+	//metodo para mudar o estado da lampada
 	public void Ligar() {
 		
 		ligado = true;
@@ -16,6 +16,7 @@ private boolean ligado;
 		}
 	}
 	
+	//metodo para desligar a lampada caso esteja ligada
 	public void Desligar () {
 		ligado = false;
 		System.out.println("Interruptor Desligado");
