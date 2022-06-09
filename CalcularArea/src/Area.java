@@ -1,26 +1,26 @@
-import java.util.Scanner;
+import java.util.Scanner;//importando scanner
 public class Area {
 
-static Scanner scn = new Scanner(System.in);
+static Scanner scn = new Scanner(System.in);//instanciando scanner
     
     public static void main(String[] args)
     {
         
-       
+       //variaveis
         double base;
         double altura;
         
-      
-        System.out.println("Digite o valor da base do tri‚ngulo: ");
+      //digitando o valor e mostrando na tela
+        System.out.println("Digite o valor da base do tri√¢ngulo: ");
         base = scn.nextDouble();
         System.out.println("");
-        System.out.println("Digite o valor da altura do tri‚ngulo: ");
+        System.out.println("Digite o valor da altura do tri√¢ngulo: ");
         altura = scn.nextDouble();
         System.out.println("");
         
-       
+       //calculando a area e mostrando na tela
          double area = (base * altura) / 2;
-         System.out.println("A ·rea do tri‚ngulo È " + area);
+         System.out.println("A √°rea do tri√¢ngulo √© " + area);
     }
 }
 
